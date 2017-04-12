@@ -1,0 +1,28 @@
+{
+  "fileTypes": [],
+  "injectionSelector": "L:markup.fenced_code.block.markdown",
+  "patterns": [
+    {
+      "include": "#ecology-code-block"
+    }
+  ],
+  "repository": {
+    "ecology-code-block": {
+      "begin": "(?<=[`~])playground(?:_norender)?(\\s+[^`~]*)?$",
+      "end": "(^|\\G)(?=\\s*[`~]{3,}\\s*$)",
+      "patterns": [
+        {
+          "begin": "(^|\\G)(\\s*)(.*)",
+          "while": "(^|\\G)(?!\\s*([`~]{3,})\\s*$)",
+          "contentName": "meta.embedded.block.ecology",
+          "patterns": [
+            {
+              "include": "source.js.jsx"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "scopeName": "markdown.ecology.codeblock"
+}
