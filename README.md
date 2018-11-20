@@ -1,4 +1,4 @@
-# VSCode Markdown Fenced Code Block Grammar Injection Example
+# VSCode Ecology Extension
 
 Enables syntax highlighting of `playground` code blocks in markdown for [`ecology`](https://github.com/FormidableLabs/ecology).
 
