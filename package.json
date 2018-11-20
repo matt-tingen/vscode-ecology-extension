@@ -2,7 +2,7 @@
   "name": "ecology",
   "displayName": "Ecology",
   "description": "Syntax highlight playground code blocks in markdown",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "matt-tingen",
   "license": "MIT",
   "repository": {
